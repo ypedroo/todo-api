@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\todo.domain\todo.domain.csproj" />
+      <ProjectReference Include="..\todo.infra\todo.infra.csproj" />
+    </ItemGroup>
+
+</Project>
