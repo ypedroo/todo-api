@@ -8,6 +8,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo.domain/Class1.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo.infra/Class1.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/todo.tests/UnitTest1.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
