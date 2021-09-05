@@ -5,7 +5,7 @@ using todo.domain.Commands.Contracts;
 
 namespace todo.domain.Commands
 {
-    public class CreateTodoCommand : Notifiable, IValidatable
+    public class CreateTodoCommand : Notifiable, ICommand
     {
         public CreateTodoCommand()
         {
