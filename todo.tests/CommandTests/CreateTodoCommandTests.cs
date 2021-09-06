@@ -6,25 +6,27 @@ namespace todo.tests.CommandTests
 {
     public class CreateTodoCommandTests
     {
+        private CreateTodoCommand _validCommand;
+        private CreateTodoCommand _invalidCommand;
         [SetUp]
         public void Setup()
         {
+            _validCommand =  new CreateTodoCommand("Task title", "ypedroo", new DateTime());
+            _invalidCommand =  new CreateTodoCommand("", "", new DateTime());
         }
 
         [Test]
         public void GivenInvalidCommandTestShouldFail()
         {
-            var command = new CreateTodoCommand("", "", new DateTime());
-            command.Validate();
-            Assert.AreEqual(command.Valid, false);
+            _invalidCommand.Validate();
+            Assert.AreEqual(false, _invalidCommand.Valid);
         }
 
         [Test]
         public void GivenValidCommandTestShouldFail()
         {
-            var command = new CreateTodoCommand("Task title", "ypedroo", new DateTime());
-            command.Validate();
-            Assert.AreEqual(command.Valid, true);
+            _validCommand.Validate();
+            Assert.AreEqual(true, _validCommand.Valid);
         }
     }
 }
