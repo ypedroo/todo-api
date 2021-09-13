@@ -8,4 +8,8 @@
       <ProjectReference Include="..\todo.domain\todo.domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.9" />
+    </ItemGroup>
+
 </Project>
