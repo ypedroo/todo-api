@@ -23,7 +23,7 @@ namespace todo.tests.CommandTests
         }
 
         [Test]
-        public void GivenValidCommandTestShouldFail()
+        public void GivenValidCommandTestShould()
         {
             _validCommand.Validate();
             Assert.AreEqual(true, _validCommand.Valid);
