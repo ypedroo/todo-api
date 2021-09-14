@@ -1,6 +1,4 @@
 
-C
-todo.api/Startup.cs,7\8\78330c7671dac5da2e5be8b3c334f81cdc71e787
 _
 /todo.domain/Commands/MarkTodoAsUndoneCommand.cs,2\8\288b3215dc9bda9d8f0758bd3ceae0a3b2a5b0a3
 ]
@@ -23,10 +21,6 @@ a
 1todo.tests/CommandTests/CreateTodoCommandTests.cs,a\a\aa71c1839f20aafb85d2643fe8ca5753acd509cf
 a
 1todo.tests/HandlerTests/CreateTodoHandlerTests.cs,e\8\e85df99bfefe8872f131506297754b7e855d51ed
-]
--todo.tests/Repositories/FakeTodoRepository.cs,f\7\f7f7d6aa9fb555b5a8bfb85d6bdd4f9a4f354da3
-[
-+todo.domain/Repositories/ITodoRepository.cs,f\0\f0e21f5c78cf379411cde79632177c26016bf9a8
 S
 #todo.domain/Handlers/TodoHandler.cs,f\3\f3059dcf28d7ac31f51a989d884cb84b674dc5c0
 P

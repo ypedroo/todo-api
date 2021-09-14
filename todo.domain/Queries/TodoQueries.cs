@@ -11,7 +11,7 @@ namespace todo.domain.Queries
             return x => x.RefUser == user;
         }
         
-        public static Expression<Func<TodoItem, bool>> GeAllDone(string user)
+        public static Expression<Func<TodoItem, bool>> GetAllDone(string user)
         {
             return x => x.RefUser == user && x.Done;
         }
