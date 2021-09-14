@@ -25,12 +25,12 @@ namespace todo.tests.Repositories
             throw new NotImplementedException();
         }
 
-        public IEnumerable<TodoItem> GeAllDone(string user)
+        public IEnumerable<TodoItem> GetAllDone(string user)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<TodoItem> GeAllUndone(string user)
+        public IEnumerable<TodoItem> GetAllUndone(string user)
         {
             throw new NotImplementedException();
         }

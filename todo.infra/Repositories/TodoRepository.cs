@@ -41,12 +41,12 @@ namespace todo.infra.Repositories
             return _dataContext.Todos.AsNoTracking().Where(TodoQueries.GetAll(user)).OrderBy(x => x.Date);
         }
 
-        public IEnumerable<TodoItem> GeAllDone(string user)
+        public IEnumerable<TodoItem> GetAllDone(string user)
         {
             return _dataContext.Todos.AsNoTracking().Where(TodoQueries.GetAllDone(user)).OrderBy(x => x.Date);
         }
 
-        public IEnumerable<TodoItem> GeAllUndone(string user)
+        public IEnumerable<TodoItem> GetAllUndone(string user)
         {
             return _dataContext.Todos.AsNoTracking().Where(TodoQueries.GeAllUndone(user)).OrderBy(x => x.Date);
         }

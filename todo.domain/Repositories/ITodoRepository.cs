@@ -12,9 +12,9 @@ namespace todo.domain.Repositories
         TodoItem GetById(Guid commandId, string user); 
         IEnumerable<TodoItem> GetAll(string user);
 
-        IEnumerable<TodoItem> GeAllDone(string user);
+        IEnumerable<TodoItem> GetAllDone(string user);
 
-        IEnumerable<TodoItem> GeAllUndone(string user);
+        IEnumerable<TodoItem> GetAllUndone(string user);
 
 
         IEnumerable<TodoItem> GetByPeriod(string user, DateTime date, bool done);

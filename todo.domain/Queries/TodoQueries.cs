@@ -10,7 +10,7 @@ namespace todo.domain.Queries
         {
             return x => x.RefUser == user;
         }
-        
+
         public static Expression<Func<TodoItem, bool>> GetAllDone(string user)
         {
             return x => x.RefUser == user && x.Done;
@@ -23,7 +23,7 @@ namespace todo.domain.Queries
 
         public static Expression<Func<TodoItem, bool>> GetByPeriod(string user, DateTime date, bool done)
         {
-            return x => x.RefUser == user && x.Done && x.Date.Date == date.Date;
+            return x => x.RefUser == user && x.Done == done && x.Date.Date == date.Date;
         }
     }
 }

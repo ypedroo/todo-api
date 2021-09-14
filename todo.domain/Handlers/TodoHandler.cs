@@ -35,6 +35,7 @@ namespace todo.domain.Handlers
                 return new GenericCommandResult(false, "Error creating the task", command.Notifications);
 
             var todo = _repository.GetById(command.Id, command.User);
+            todo.UpdateTitle(command.Title);
             _repository.Update(todo);
 
             return new GenericCommandResult(true, "Task Persisted", todo);

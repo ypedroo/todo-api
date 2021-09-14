@@ -3,8 +3,6 @@ _
 /todo.domain/Commands/MarkTodoAsUndoneCommand.cs,2\8\288b3215dc9bda9d8f0758bd3ceae0a3b2a5b0a3
 ]
 -todo.domain/Commands/MarkTodoAsDoneCommand.cs,6\f\6f26ed1c6521d3b12a0fde22bbb6e0c759a91614
-Y
-)todo.domain/Commands/UpdateTodoCommand.cs,6\7\67c9b7245e98279b3e91b40d5c5b33d41d1b9526
 `
 0todo.domain/Commands/Contracts/ICommandResult.cs,3\e\3efeb0b745ed80f276ac6ce6f64e1a7e3afb4880
 Z
@@ -21,7 +19,5 @@ a
 1todo.tests/CommandTests/CreateTodoCommandTests.cs,a\a\aa71c1839f20aafb85d2643fe8ca5753acd509cf
 a
 1todo.tests/HandlerTests/CreateTodoHandlerTests.cs,e\8\e85df99bfefe8872f131506297754b7e855d51ed
-S
-#todo.domain/Handlers/TodoHandler.cs,f\3\f3059dcf28d7ac31f51a989d884cb84b674dc5c0
 P
  todo.domain/Entities/TodoItem.cs,e\0\e0469a9f0bccbbf29fa7230aab877c2d6b74321d
